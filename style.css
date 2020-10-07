@@ -1,0 +1,73 @@
+body {
+    background-image : url("background.jpg");
+    text-align: center;
+}
+
+h1 {
+    text-align:center;
+    font-family: monospace;
+    margin-top: 40px;
+}
+
+.simple-btn {
+    color : rgb(92, 92, 92);
+    background-color: rgb(255, 198, 93);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(255, 198, 93);
+    margin-top: 20px;
+}
+
+.userinput {
+    display: block;
+    border-radius: 25px;
+    border-color: rgb(255, 239, 148);
+    background-color:rgb(255, 239, 148);
+    border-style: solid;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    transition: width 1s;
+    outline:none;
+}
+
+.userinput:focus {
+    background-color: rgb(255, 249, 218);
+    width: 300px;
+}
+
+.box {
+    display: inline-block;
+    text-align: center;
+}
+
+.todo {
+    color: black;
+    font-family: monospace;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    border-color: rgb(255, 213, 238);;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: rgb(255, 213, 238);
+    text-align: center;
+}
+
+.listdivision {
+    text-align: center;
+    display: inline-block;
+}
+
+.listblock {
+    display: block;
+}
+
+.deletebtn {
+    background-color: red;
+    margin-left: 10px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: red;
+}

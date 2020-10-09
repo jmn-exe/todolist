@@ -16,9 +16,9 @@ h1 {
     color : black;
     background-color: rgb(255, 198, 93);
     border-radius: 25px;
-    font-size: 16px;
+    font-size: 20px;
     border-style: solid;
-    font-family: 'Concert One', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     padding: 10px;
     outline:none;
     border-color: rgb(255, 198, 93);
@@ -33,9 +33,9 @@ h1 {
 
 .userinput {
     display: block;
-    font-size: 20px;
+    font-size: 25px;
     padding: 12px;
-    font-family: 'Concert One', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     border-radius: 30px;
     border-color: rgb(255, 239, 148);
     background-color:rgb(255, 239, 148);
@@ -60,8 +60,9 @@ h1 {
 
 .todo {
     color: black;
-    font-family: 'Concert One', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     border-style: solid;
+    font-size: 20px;
     border-width: 2px;
     border-radius: 20px;
     border-color: rgb(255, 213, 238);;
@@ -88,7 +89,7 @@ h1 {
     border-radius: 30px;
     color: red;
     outline:none;
-    font-family: 'Concert One', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     border-style: solid;
     border-color: red;
     transition: background-color 0.5s,color 0.5s;

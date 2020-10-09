@@ -13,9 +13,10 @@ function buttonClick(){
         nameToDisplay.className = "todo";
         deleteButton.style.display = "inline-block";
         listDivision.appendChild(nameToDisplay);
-        listDivision.appendChild(deleteButton);
         listBlock.appendChild(listDivision);
+        listDivision.appendChild(deleteButton);
         document.body.appendChild(listBlock);
+        document.getElementById("name").value="";
         index++;
     }
 }

@@ -15,7 +15,8 @@ function buttonClick(){
         listDivision.appendChild(nameToDisplay);
         listBlock.appendChild(listDivision);
         listDivision.appendChild(deleteButton);
-        document.body.appendChild(listBlock);
+        document.getElementById("listarea").appendChild(listBlock);
+        //document.body.appendChild(listBlock);
         document.getElementById("name").value="";
         index++;
     }

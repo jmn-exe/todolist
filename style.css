@@ -5,35 +5,47 @@ body {
 
 h1 {
     text-align:center;
-    font-family: monospace;
-    margin-top: 40px;
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    font-weight: 100;
+    color:rgb(0, 3, 34);
+    margin-top: 20px;
 }
 
 .simple-btn {
-    color : rgb(92, 92, 92);
+    color : black;
     background-color: rgb(255, 198, 93);
     border-radius: 25px;
-    height: 30px;
     border-style: solid;
+    outline:none;
     border-color: rgb(255, 198, 93);
     margin-top: 20px;
+    transition: background-color 0.5s,border-color 0.5s;
+}
+
+.simple-btn:hover {
+    background-color:  rgb(255, 222, 161);
+    border-color: rgb(255, 222, 161);
 }
 
 .userinput {
     display: block;
+    font-size: 20px;
+    font-family: 'Concert One', cursive;
     border-radius: 25px;
     border-color: rgb(255, 239, 148);
     background-color:rgb(255, 239, 148);
     border-style: solid;
-    height: 35px;
-    width: 150px;
+    height: 45px;
+    width: 125px;
     text-align: center;
-    transition: width 1s;
+    transition: width 1s, background-color 0.5s,border-color 0.5s;
     outline:none;
 }
 
 .userinput:focus {
     background-color: rgb(255, 249, 218);
+    border-color: rgb(255, 249, 218);
     width: 300px;
 }
 
@@ -44,16 +56,22 @@ h1 {
 
 .todo {
     color: black;
-    font-family: monospace;
+    font-family: 'Concert One', cursive;
     border-style: solid;
     border-width: 2px;
-    border-radius: 25px;
+    border-radius: 20px;
     border-color: rgb(255, 213, 238);;
-    padding: 5px;
+    padding: 10px;
     display: inline-block;
     margin-bottom: 10px;
     background-color: rgb(255, 213, 238);
     text-align: center;
+}
+
+
+
+.todo:default {
+    background-color: transparent;
 }
 
 .listdivision {
@@ -66,9 +84,18 @@ h1 {
 }
 
 .deletebtn {
-    background-color: red;
+    background-color: transparent;
     margin-left: 10px;
-    border-radius: 25px;
+    border-radius: 30px;
+    color: red;
+    outline:none;
+    font-family: 'Concert One', cursive;
     border-style: solid;
     border-color: red;
+    transition: background-color 0.5s,color 0.5s;
+}
+
+.deletebtn:hover{
+    background-color: red;
+    color: white;
 }
